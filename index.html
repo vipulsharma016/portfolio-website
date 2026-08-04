@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vipul Sharma - Full-Stack Developer & AI Engineer</title>
+<meta name="description" content="Vipul Sharma — Full-Stack Developer and AI Engineer building end-to-end web applications and multi-agent AI systems." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ambient grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#home" class="brand" aria-label="Vipul Sharma — home">
+      <span class="brand__dot" aria-hidden="true"></span>
+      <span class="brand__name">VIPUL<span class="brand__thin">SHARMA</span></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#contact" class="nav__link">Contact</a>
+      <a href="https://drive.google.com/file/d/1vwswmY8hm2JRBaBqRJxDIswJyauFFkhb/view?usp=sharing"
+         target="_blank" rel="noopener" class="nav__link nav__link--resume">Resume</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch theme" title="Switch theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="4.9" y1="4.9" x2="6.7" y2="6.7"/><line x1="17.3" y1="17.3" x2="19.1" y2="19.1"/><line x1="4.9" y1="19.1" x2="6.7" y2="17.3"/><line x1="17.3" y1="6.7" x2="19.1" y2="4.9"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a0.5 0.5 0 0 0-.7-.6A9 9 0 1 0 20.6 15.2a0.5 0.5 0 0 0-.6-.7z"/></svg>
+      </button>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="hero__glow" aria-hidden="true">
+    <div class="orb" id="orb">
+      <div class="orb__core"></div>
+      <div class="orb__ring orb__ring--1"></div>
+      <div class="orb__ring orb__ring--2"></div>
+    </div>
+  </div>
+
+  <div class="hero__content">
+    <p class="eyebrow reveal">Full-Stack Developer <span class="dot-sep">·</span> AI Engineer</p>
+    <h1 class="hero__title reveal">Hello, I'm <span class="hero__name">Vipul</span>.</h1>
+    <p class="hero__sub reveal">
+      I build web applications and multi-agent AI systems — from database schema to deployment.
+    </p>
+    <div class="hero__cta reveal">
+      <a href="#projects" class="btn btn--primary">View projects</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section about" id="about">
+  <div class="section__head reveal">
+    <span class="section__index">01</span>
+    <h2 class="section__title">About</h2>
+  </div>
+
+  <div class="about__grid">
+    <div class="about__lead reveal">
+      <p class="about__para">
+        I'm a Computer Science graduate and full-stack developer with production experience
+        building end-to-end web apps and multi-agent AI automation systems. I've shipped
+        internal tools that are actively used in a company, and I enjoy working across the
+        whole stack — from database design to deployment.
+      </p>
+
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat__num">6-agent</span>
+          <span class="stat__label">autonomous content pipeline shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">2</span>
+          <span class="stat__label">full-stack products designed &amp; built</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">2026</span>
+          <span class="stat__label">B.Tech CSE, Poornima College</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__timeline reveal">
+      <div class="tl-item">
+        <span class="tl-tag">Experience</span>
+        <h3 class="tl-role">AI Engineer — Media-AMP</h3>
+        <p class="tl-meta">On-site, Ahmedabad <span class="dot-sep">·</span> Sep 2025 – Present</p>
+        <ul class="tl-list">
+          <li>Built a full-stack content approval platform with version-controlled storage, real-time status tracking, and an email-based approval flow that updates the dashboard live.</li>
+          <li>Integrated an AI compliance layer that screens content for legal and PR risk before it reaches senior reviewers.</li>
+          <li>Designed and deployed a 6-agent pipeline that researches trending topics from the last 72 hours, dedupes via vector similarity, generates across multiple AI providers, and schedules publishing.</li>
+          <li>Ran parallel generation across Claude and Gemini with an Ollama-based evaluator as final judge; applied the same multi-provider pattern to AI image generation.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <span class="tl-tag">Education</span>
+        <h3 class="tl-role">B.Tech, Computer Science &amp; Engineering</h3>
+        <p class="tl-meta">Poornima College of Engineering, Jaipur <span class="dot-sep">·</span> 2022 – 2026</p>
+        <p class="tl-note">Coursework: OOP, Data Structures &amp; Algorithms, DBMS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="section skills" id="skills">
+  <div class="section__head reveal">
+    <span class="section__index">02</span>
+    <h2 class="section__title">Skills</h2>
+    <p class="section__note">Everything I build with, grouped by layer.</p>
+  </div>
+
+  <div class="skill-grid" id="skillGrid">
+    <!-- cards injected by JS -->
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section projects" id="projects">
+  <div class="section__head reveal">
+    <span class="section__index">03</span>
+    <h2 class="section__title">Projects</h2>
+    <p class="section__note"></p>
+  </div>
+
+  <div class="proj-grid">
+    <article class="proj-card reveal" data-project="offbeat" tabindex="0" role="button" aria-label="Open Offbeat details">
+      <div class="proj-card__top">
+        <span class="proj-card__kind">Full-stack platform</span>
+        <span class="proj-card__arrow" aria-hidden="true">→</span>
+      </div>
+      <h3 class="proj-card__title">Offbeat</h3>
+      <p class="proj-card__tag">Curated multi-city discovery for underrated cafés &amp; hangouts.</p>
+      <div class="proj-card__stack">
+        <span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>NextAuth</span>
+      </div>
+    </article>
+
+    <article class="proj-card reveal" data-project="sidenote" tabindex="0" role="button" aria-label="Open Sidenote details">
+      <div class="proj-card__top">
+        <span class="proj-card__kind">RAG application</span>
+        <span class="proj-card__arrow" aria-hidden="true">→</span>
+      </div>
+      <h3 class="proj-card__title">Sidenote</h3>
+      <p class="proj-card__tag">A second brain that answers questions across your PDFs &amp; notes — with citations.</p>
+      <div class="proj-card__stack">
+        <span>FastAPI</span><span>pgvector</span><span>Next.js</span><span>LLM APIs</span>
+      </div>
+    </article>
+  </div>
+
+  <!-- Featured / playable -->
+  <article class="featured reveal" id="featuredGame">
+    <div class="featured__glow" aria-hidden="true"></div>
+    <div class="featured__body">
+      <div class="featured__meta">
+        <span class="featured__badge"><span class="featured__ping"></span> Playable in browser</span>
+        <span class="featured__kind">2D game <span class="dot-sep">·</span> Vanilla JS</span>
+      </div>
+      <h3 class="featured__title">Pixel Slayer 2D</h3>
+      <p class="featured__tag">
+        A fast, hand-built pixel-art action game that runs entirely in the browser.
+        No install, no engine — just click play.
+      </p>
+      <div class="featured__actions">
+        <button class="btn btn--primary" id="playGame">▶ Play now</button>
+        <a class="btn btn--ghost" href="https://vipulsharma016.github.io/pixel-slayer-2d/" target="_blank" rel="noopener">Open in new tab ↗</a>
+      </div>
+    </div>
+    <div class="featured__art" aria-hidden="true">
+      <div class="pixel-grid">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section contact" id="contact">
+  <div class="contact__inner reveal">
+    <span class="section__index">04</span>
+    <h2 class="contact__title">Let's build something.</h2>
+    <p class="contact__sub">
+      Open to full-stack and AI engineering projects, or a good conversation.
+    </p>
+
+    <div class="contact__links">
+      <a class="clink" href="https://github.com/vipulsharma016" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.2-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+        <span>GitHub</span>
+      </a>
+      <a class="clink" href="https://www.linkedin.com/in/vipul-sharma-156259257" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <button class="clink" id="emailBtn" type="button" aria-label="Copy email address">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4.5h20a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1zm.9 2 9.1 6.36L21.1 6.5H2.9zM21 8.06l-8.43 5.9a1 1 0 0 1-1.14 0L3 8.06V17.5h18V8.06z"/></svg>
+        <span id="emailLabel">Email</span>
+      </button>
+    </div>
+
+    <a class="contact__mail" href="mailto:vsharmaa11116@gmail.com">vsharmaa11116@gmail.com</a>
+  </div>
+
+  <footer class="footer">
+    <span class="brand brand--sm"><span class="brand__dot"></span> VIPUL<span class="brand__thin">SHARMA</span></span>
+    <span class="footer__note">Built from scratch · <span id="year"></span></span>
+  </footer>
+</section>
+
+</main>
+
+<!-- ===================== MODAL ===================== -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" data-close aria-label="Close">×</button>
+    <div class="modal__content" id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
